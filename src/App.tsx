@@ -447,7 +447,11 @@ function App() {
     <div className="app-shell">
       <nav className="top-nav">
         <div className="nav-brand">
-          <img src="/ormal-logo.png" alt="Ormal Path" className="nav-logo" />
+          <img
+            src={`${import.meta.env.BASE_URL}ormal-logo.png`}
+            alt="Ormal Path"
+            className="nav-logo"
+          />
           <span className="nav-brand-name">Ormal Path</span>
         </div>
         <div className="nav-links">
